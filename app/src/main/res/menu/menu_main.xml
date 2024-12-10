@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 刷新按钮 -->
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="刷新"
+        app:showAsAction="always" />
+
+    <!-- 播放按钮 -->
+    <item
+        android:id="@+id/action_play"
+        android:icon="@drawable/ic_play"
+        android:title="播放"
+        app:showAsAction="always" />
+
+    <!-- 历史记录按钮 -->
+    <item
+        android:id="@+id/action_history"
+        android:title="历史记录"
+        app:showAsAction="never"/>
+
+    <!-- 个人中心按钮 -->
+    <item
+        android:id="@+id/action_profile"
+        android:title="个人中心"
+        app:showAsAction="never"/>
+
+    <!-- 分类菜单 -->
+    <item
+        android:id="@+id/action_category"
+        android:title="分类"
+        app:showAsAction="never">
+        <menu>
+            <!-- 子菜单项 -->
+            <item
+                android:id="@+id/action_refresh"
+                android:title="娱乐" />
+            <item
+                android:id="@+id/action_refresh"
+                android:title="电视剧" />
+            <item
+                android:id="@+id/action_refresh"
+                android:title="其他新闻" />
+        </menu>
+    </item>
+
+    <!-- 天气预报按钮 -->
+    <item
+        android:id="@+id/action_weather"
+        android:icon="@drawable/ic_weather"
+        android:title="天气预报"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 用户头像 -->
+    <ImageView
+        android:id="@+id/user_avatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_user_avatar" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zhangpeng"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+    <!-- 注册时间按钮 -->
+    <Button
+        android:id="@+id/Registration_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册时间: 获取中..."
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+    <!-- 修改用户名按钮 -->
+    <Button
+        android:id="@+id/btn_edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改用户名"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+    <!-- 修改密码按钮 -->
+    <Button
+        android:id="@+id/modifyPasswordButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="修改密码"
+    android:layout_marginTop="16dp"
+    android:layout_gravity="center" />
+
+    <!-- 修改密码按钮 -->
+    <Button
+        android:id="@+id/readings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="阅读的能级：小白"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+    <!-- 当前位置按钮 -->
+    <Button
+        android:id="@+id/current_locate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前位置"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+
+    <!-- 作者介绍 -->
+    <Button
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="作者介绍"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+
+    <!-- 发送邮件 -->
+    <Button
+        android:id="@+id/sendEmailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定邮件"
+        android:layout_gravity="center" />
+
+
+
+    <!-- 作者介绍 -->
+    <Button
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="安卓开发1.0"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+</LinearLayout>

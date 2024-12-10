@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- 作者头像 -->
+    <ImageView
+        android:id="@+id/author_avatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_author_avatar" /> <!-- 头像图片 -->
+
+    <!-- 作者介绍文本 -->
+    <TextView
+        android:id="@+id/author_info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@drawable/rounded_background"
+        android:textAlignment="center" />
+
+</LinearLayout>

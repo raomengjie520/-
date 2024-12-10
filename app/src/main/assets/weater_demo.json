@@ -1,0 +1,73 @@
+{
+  "reason": "success!",
+  "result": {
+    "stat": "1",
+    "data": [
+      {
+        "uniquekey": "1",
+        "title": "2024年12月4日 - 广州天气预报",
+        "date": "2024-12-04 08:00:00",
+        "category": "天气",
+        "author_name": "天气预报",
+        "url": "https://weather.example.com/guangzhou/20241204",
+        "thumbnail_pic_s": "https://example.com/images/guangzhou_weather_day1.jpg",
+        "temperature_min": "15°C",
+        "temperature_max": "23°C",
+        "weather_condition": "多云",
+        "is_content": "1"
+      },
+      {
+        "uniquekey": "2",
+        "title": "2024年12月5日 - 广州天气预报",
+        "date": "2024-12-05 08:00:00",
+        "category": "天气",
+        "author_name": "天气预报",
+        "url": "https://weather.example.com/guangzhou/20241205",
+        "thumbnail_pic_s": "https://example.com/images/guangzhou_weather_day2.jpg",
+        "temperature_min": "14°C",
+        "temperature_max": "21°C",
+        "weather_condition": "阴天",
+        "is_content": "1"
+      },
+      {
+        "uniquekey": "3",
+        "title": "2024年12月6日 - 广州天气预报",
+        "date": "2024-12-06 08:00:00",
+        "category": "天气",
+        "author_name": "天气预报",
+        "url": "https://weather.example.com/guangzhou/20241206",
+        "thumbnail_pic_s": "https://example.com/images/guangzhou_weather_day3.jpg",
+        "temperature_min": "16°C",
+        "temperature_max": "24°C",
+        "weather_condition": "小雨",
+        "is_content": "1"
+      },
+      {
+        "uniquekey": "4",
+        "title": "2024年12月7日 - 广州天气预报",
+        "date": "2024-12-07 08:00:00",
+        "category": "天气",
+        "author_name": "天气预报",
+        "url": "https://weather.example.com/guangzhou/20241207",
+        "thumbnail_pic_s": "https://example.com/images/guangzhou_weather_day4.jpg",
+        "temperature_min": "17°C",
+        "temperature_max": "25°C",
+        "weather_condition": "晴天",
+        "is_content": "1"
+      },
+      {
+        "uniquekey": "5",
+        "title": "2024年12月8日 - 广州天气预报",
+        "date": "2024-12-08 08:00:00",
+        "category": "天气",
+        "author_name": "天气预报",
+        "url": "https://weather.example.com/guangzhou/20241208",
+        "thumbnail_pic_s": "https://example.com/images/guangzhou_weather_day5.jpg",
+        "temperature_min": "18°C",
+        "temperature_max": "26°C",
+        "weather_condition": "晴天",
+        "is_content": "1"
+      }
+    ]
+  }
+}
